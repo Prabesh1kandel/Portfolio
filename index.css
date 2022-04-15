@@ -75,7 +75,7 @@
 
 .content-wrapper {
     background-color: #023047;
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
 }
 
 .main-content {
