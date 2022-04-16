@@ -37,13 +37,12 @@
 
 .mobile-navbar input {
     position: absolute;
-    right: 0;
+    left: 19px;
     z-index: 3;
     opacity: 0;
 }
 
 .hamburger-wrapper {
-    position: absolute;
     top: 20px;
     right: 20px;
 }
@@ -85,7 +84,6 @@
 .hamburger {
     height: 20px;
     width: 20px;
-    position: absolute;
     left: -20px;
     z-index: 2;
 }
@@ -96,6 +94,8 @@
 .content-wrapper {
     background-color: #023047;
     min-height: calc(100vh - 60px);
+    padding: 20px;
+    overflow: hidden;
 }
 
 .main-content {
