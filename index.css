@@ -12,9 +12,6 @@
 .navbar {
     background-color: #ffe100;
     overflow: hidden;
-    display: flex;
-    /* distributes  equally among each other  */
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     padding: 20px;
@@ -24,7 +21,7 @@
 
 @media screen and (min-width: 768px) {
     .navbar {
-        display: block
+        display: block;
     }
 }
 
