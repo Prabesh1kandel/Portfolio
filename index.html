@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="index.css">
     <title>Portfolio | Home</title>
 </head>
 
 <body class="body">
     <!-- repetative start -->
-    <nav class="navbar">
-        <a href="./index.html" class="link-active">Home</a>
-        <a href="./portfolio.html" class="link">Portfolio</a>
-        <a href="./contact.html" class="link">Contact</a>
-        <a href="./blog.html" class="link">Blog</a>
-        <a href="./sitereport.html" class="link">Site Report</a>
-    </nav>
-    <div class="mobile-navbar">
-        <img src="./assets/icons8-hamburger-menu-150.png" class="hamburger" alt="hamburger" />
+    <div class="nav-wrapper">
+        <nav class="navbar">
+            <a href="./index.html" class="link-active">Home</a>
+            <a href="./portfolio.html" class="link">Portfolio</a>
+            <a href="./contact.html" class="link">Contact</a>
+            <a href="./blog.html" class="link">Blog</a>
+            <a href="./sitereport.html" class="link">Site Report</a>
+        </nav>
+        <div class="mobile-navbar">
+            <div class="hamburger-wrapper">
+                <input type="checkbox" id="toggle" />
+                <img src="./assets/icons8-hamburger-menu-150.png" class="hamburger" alt="hamburger" />
+                <nav class="mobile-nav">
+                    <a href="./index.html" class="link-active">Home</a>
+                    <a href="./portfolio.html" class="link">Portfolio</a>
+                    <a href="./contact.html" class="link">Contact</a>
+                    <a href="./blog.html" class="link">Blog</a>
+                    <a href="./sitereport.html" class="link">Site Report</a>
+                </nav>
+            </div>
+
+        </div>
     </div>
     <!-- repetative end -->
     <section class="content-wrapper">
