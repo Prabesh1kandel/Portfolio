@@ -1,6 +1,5 @@
 .contact-content {
     display: flex;
-    padding: 20px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -13,7 +12,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -23,14 +22,15 @@
     }
 }
 
-.center .header-label{
+.center .header-label {
     color: #ffe100;
 }
+
 .contact-details {
     flex: 4;
 }
 
-.contact-details .label{
+.contact-details .label {
     font-size: 21px;
 }
 
@@ -47,7 +47,6 @@
     color: #fff;
     margin-bottom: 50px;
     font-size: 32px;
-
 }
 
 .label {
